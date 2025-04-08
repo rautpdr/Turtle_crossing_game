@@ -25,8 +25,8 @@ class car_class(Turtle):
     def move_car(self):
         self.forward(self.starting_move_distance)
 
-    def increment_speed(self):
-        self.starting_move_distance += self.increment_distance
+    # def increment_speed(self):
+    #     self.starting_move_distance += self.increment_distance
 
 
 
